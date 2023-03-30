@@ -4,7 +4,7 @@ if $::hostname == 'puppetclient4' {
     mode   => '0644',
     owner  => 'root',
     group  => 'root',
-    content => "#Welcome",
+    content => "#This is to Welcome you for Github",
   }
 } else {
   file { '/tmp/jo2.txt':
