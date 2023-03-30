@@ -7,11 +7,11 @@ if $::hostname == 'puppetclient4' {
     content => "#This is to Welcome you for Github",
   }
 } else {
-  file { '/tmp/jo2.txt':
+  file { '/tmp/jo3.txt':
     ensure => present,
     mode   => '0644',
     owner  => 'root',
     group  => 'root',
-    content => "# This is to welcome",
+    content => "# This is to welcome from AA",
   }
 }
